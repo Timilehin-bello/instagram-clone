@@ -25,7 +25,6 @@ function ImageUpload({username}) {
                 setProgress(progress);
             },
             error => {
-                console.log(error)
                 alert(error.message)
             },
             () => {
@@ -46,7 +45,6 @@ function ImageUpload({username}) {
                     })
             }
         )
-        console.log(uploadTask)
     }
 
 
